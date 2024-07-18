@@ -1,0 +1,319 @@
+Hello...!
+This is our 1st file from java course...! 
+OK bye now..!
+-------------------------------------------------------
+
+ Crack Campus Placements in 2 months. Complete Guide & Roadmap (Hindi) 😇 😎
+ I bought a new Macbook Air M2 for coding (My Developer Setup). (Hindi) 🤓
+ Confused about Google Summer of Code? This video covers everything. 😯 🤩
+Studytonight.com
+Learn to Code
+Library
+
+
+
+
+
+
+
+
+
+
+
+
+Tests
+Forum
+Tech Blog
+
+JAVA FILE IO
+Java ByteStream
+Java CharacterStream
+JAVA BYTESTREAM CLASSES
+Java BufferedInputStream
+Java FileOutputStream
+Java FileInputStream
+Java BufferedOutputStream
+Java SequenceInputStream
+Java ByteArrayOutputStream
+Java ByteArrayInputStream
+Java DataOutputStream
+Java DataInputStream
+Java FilterOutputStream
+Java FilterInputStream
+Java ObjectStreamClass
+Java ObjectStreamField
+Java Console
+Java FilePermission
+Java Writer
+JAVA CHARSTREAM CLASSES
+Java FilterReader
+Java FilterWriter
+Java PushbackReader
+Java Reader
+Java FileWriter
+Java FileReader
+Java BufferedWriter
+Java BufferedReader
+Java CharArrayReader
+Java CharArrayWriter
+Java PrintStream
+Java PrintWriter
+Java OutputStreamWriter
+Java InputStreamReader
+Java PushbackInputStream
+Java StringWriter Class
+Java StringReader
+Java PipedWriter
+Java PipedReader Class
+JAVA CHARARRAYWRITER
+WriteTo() Method
+Write() Method
+CharArrayWriter size() Method
+ToCharArray() Method
+ToString() Method
+Append() Method
+Flush() Method
+Reset() Method
+JAVA OUTPUTSTREAMWRITER
+Write() Method
+GetEncoding() Method
+Close() Method
+Flush() Method
+BYTEARRAYINPUTSTREAM
+ByteArrayInputStream available()
+ByteArrayInputStream read()
+ByteArrayInputStream markSupported()
+ByteArrayInputStream skip()
+ByteArrayInputStream mark()
+FILEINPUTSTREAM METHODS
+available() Method
+close() Method
+skip() Method
+getChannel() Method
+getFD() Method
+Read() Method
+JAVA BUFFEREDWRITER METHODS
+Write() Method
+Java BufferedWriter newLine()
+JAVA FILEWRITER
+Close() Method
+Flush() Method
+JAVA INPUTSTREAMREADER METHODS
+Read() Method
+Ready() Method
+GetEncoding() Method
+InputStreamReader close() Method
+JAVA CHARARRAYREADER METHODS
+Skip() Method
+Close() Method
+Ready() Method
+Read() Method
+Mark() Method
+Reset() Method
+MarkSupported() Method
+JAVA FILTERREADER METHODS
+Read() Method
+Mark() Method
+Ready() Method
+Close() Method
+MarkSupported() Method
+Reset() Method
+Skip() Method
+JAVA BUFFEREDREADER
+Close() Method
+Skip() Method
+Read() Method
+ReadLine() Method
+MarkSupported() Method
+Ready() Method
+Reset() Method
+Mark() Method
+JAVA FILTERINPUTSTREAM METHODS
+Read() Method
+Available() Method
+skip() Method
+MarkSupported() Method
+Mark() Method
+Reset() Method
+JAVA FILEREADER METHODS
+Read() Method
+Java FileReader close()
+JAVA FILEWRITER
+Write() Method
+JAVA PIPEDWRITER
+Write() Method
+Close() Method
+Flush() Method
+JAVA PIPEDREADER METHODS
+Connect() Method
+Read() Method
+Ready() Method
+Close() Method
+BUFFEREDINPUTSTREAM METHODS
+available() Method
+STRINGWRITER METHODS
+Write() Method
+ToString() Method
+GetBuffer() Method
+Flush() Method
+Close() Method
+StringWriter append() Method
+JAVA DATAINPUTSTREAM METHODS
+ReadDouble() Method
+Java DataInputStream readBoolean()
+SkipBytes() Method
+Read() Method
+ReadInt() Method
+ReadByte() Method
+ReadChar() Method
+ReadUTF() Method
+JAVA FILTERWRITER METHODS
+Flush() Method
+Write() Method
+Ezoicreport this ad
+Home
+Java File I/O
+Java FileWriter close() Method
+Java FileWriter close() Method
+In this tutorial, we will learn about the close() method of FileWriter class in Java. This method is used to close this FileWriter stream. When we call any of its methods after closing the stream will not result from an exception. This method is available in the java.io package. Closing a writer deallocates any value in it or any resources associated with it.
+
+Syntax
+This is the syntax declaration of a close() method, It does not accept any parameter and the return type of the method is void, it returns nothing.
+
+public void close()
+Example: Close FileWriter
+Here, in this example, we will implement the close() method, once we create the writer we perform the work and then call the close() method to deallocate the corresponding resources related to the writer. When we call any of its methods after closing the stream will not result from an exception.
+
+import java.io.FileWriter;
+import java.io.IOException;
+class StudyTonight
+{
+	public static void main(String[] args) throws IOException 
+	{ 
+		try
+		{    
+			FileWriter fileWriter=new FileWriter("E:\\studytonight\\output.txt");    
+			String str = "Hello Studytonight";
+			fileWriter.write(str);    
+			fileWriter.close();    
+			System.out.println("Data Written to the file successfully");
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error: "+e.toString());
+		}    
+	} 
+}
+
+Data Written to the file successfully
+
+output.txt
+
+Hello Studytonight
+Example: Close FileWriter Instance
+Here, we are implementing the close() method, in this example firstly we have written data to the writer using the write() method and then we are calling the close() method to deallocate the resources, when we call any of its methods after closing the stream will not result from an exception.
+
+import java.io.FileWriter;
+import java.io.IOException;
+class StudyTonight
+{
+	public static void main(String[] args) throws IOException 
+	{ 
+		try
+		{    
+			FileWriter fileWriter=new FileWriter("E:\\studytonight\\output.txt");    
+			char c='A';
+			fileWriter.write(c);    
+			fileWriter.close();    
+			System.out.println("Data Written to the file successfully");
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error: "+e.toString());
+		}    
+	} 
+}
+
+Data Written to the file successfully
+
+output.txt
+
+A
+Conclusion
+In this example, we learned about the close() method, This method is used to close this FileWriter stream. When we call any of its methods after closing the stream will not result from an exception. This method is available in the java.io package.
+
+← Java BufferedWriter newLine()
+Flush() Method →
+About the author:
+
+Abhishek Ahlawat
+I am the founder of Studytonight. I like writing content about C/C++, DBMS, Java, Docker, general How-tos, Linux, PHP, Java, Go lang, Cloud, and Web development. I have 10 years of diverse experience in software development.
+Want to learn coding and don't know where to start?
+Try out our Interactive Courses for Free 🥳 😯 🤩
+learn to code footer Ad
+Ezoicreport this ad
+  MCQ Tests
+Prepare for your next technical Interview. We add new tests every week.
+Ezoicreport this ad
+studytonight.com  
+
+About Us
+
+Testimonials
+
+Privacy Policy
+
+Terms
+
+Contact Us
+
+Suggest
+
+We are Hiring!
+
+© 2023 Studytonight Technologies Pvt. Ltd.
+
+ Learn Coding (for beginners)
+ Tutorial Library
+ Interview Tests
+ Curious
+ Practice Coding
+Coding Courses
+Learn Go Lang
+Learn JavaScript
+Learn CSS
+Learn HTML
+Resources
+C Language
+C++/STL
+Java
+DBMS
+Python
+PHP
+Android
+Game Development
+Data Structure & Alog.
+Operating System
+Computer Network
+Computer Architecture
+Docker
+GO Language
+GIT Guide
+Linux Guide
+More...
+Interview Tests
+Java Interview Tests
+Python Interview Tests
+DBMS Interview Tests
+Linux Interview Tests
+Aptitude Tests
+GATE 2022 Tests
+More...
+Projects/Programs
+Python Projects
+C Projects
+Python Programs
+C Programs
+C++ Programs
+Java Programs
+
