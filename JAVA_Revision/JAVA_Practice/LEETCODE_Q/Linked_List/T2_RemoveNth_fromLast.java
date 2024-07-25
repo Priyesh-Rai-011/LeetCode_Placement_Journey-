@@ -22,6 +22,8 @@ public class T2_RemoveNth_fromLast {
         return head;
     }
     public static void main(String[] args) {
+
+        System.out.println("HEllo World");
 //        removeNthFromEnd(nums,4);
     }
 }
