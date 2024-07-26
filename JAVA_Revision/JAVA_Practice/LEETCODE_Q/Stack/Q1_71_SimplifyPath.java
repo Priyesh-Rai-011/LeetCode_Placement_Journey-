@@ -3,9 +3,13 @@ package LEETCODE_Q.Stack;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.Stack;
 
 public class Q1_71_SimplifyPath {
+    // VERY IMPORTANT LEARNING IN THIS QUESTION
+    // THIS QUESTION IS NOT FROM MONOTONIC STACK
+    // IT IS FROM NORMAL STACK
+    // REVISE THE REASON - WHY WE USED OFFERLAST() AND POLLLAST()
+    //                       INSTED OF PUSH()      AND POP() -->  WHILE USING DEQUEUE
     public static String simplifyPath(String path){
         String[] dirs = path.split("/");
         System.out.println("-->"+Arrays.toString(dirs));
