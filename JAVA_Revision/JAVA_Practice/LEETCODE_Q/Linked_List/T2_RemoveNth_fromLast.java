@@ -1,9 +1,5 @@
 package LEETCODE_Q.Linked_List;
 
-class ListNode { int val;ListNode next;ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
 public class T2_RemoveNth_fromLast {
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummyHead = new ListNode(0,head);
