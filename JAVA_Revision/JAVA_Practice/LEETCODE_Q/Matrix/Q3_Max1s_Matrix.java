@@ -1,6 +1,5 @@
 package LEETCODE_Q.Matrix;
 
-import java.util.ArrayList;
 
 public class Q3_Max1s_Matrix {
     public static int max1s(int[][] matrix){
