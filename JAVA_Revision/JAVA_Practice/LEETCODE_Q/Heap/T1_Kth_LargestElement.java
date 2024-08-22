@@ -1,7 +1,25 @@
 package LEETCODE_Q.Heap;
 
-public class T1_Kth_LargestElement {
-    public static void main(String[] args) {
+import java.util.PriorityQueue;
 
+// Q: Finding the Kth largest element in an unsorted array.
+/*
+* Approach 1: largest element --> min heap implementation (ADITYA VERMA)
+* Approach 2: largest element --> max heap implementation (GENERAL)
+* */
+public class T1_Kth_LargestElement {
+    static int kth_largest_app1(int[] nums, int k){
+        PriorityQueue<Integer> hp = new PriorityQueue<>();
+        for(int i=0; i< nums.length; i++){
+            hp.add(nums[i]);
+            if (hp.size() > k){
+                hp.poll();
+            }
+        }
+        return hp.peek();
+    }
+    public static void main(String[] args) {
+        int[] nums = { 11, 3, 2, 1, 15, 5, 4, 45, 88, 96, 50, 45 };
+        System.out.println(kth_largest_app1(nums,3));
     }
 }
