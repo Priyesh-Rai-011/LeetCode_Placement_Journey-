@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class T2_NextLargestElementToLeft {
+public class T2_NextLargestToLeft {
     public static int[] NLEtoLeft(int[] nums){
         int n= nums.length;
         Deque<Integer> stk = new ArrayDeque<>();

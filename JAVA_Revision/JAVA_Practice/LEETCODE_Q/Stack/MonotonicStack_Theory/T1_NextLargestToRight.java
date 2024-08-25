@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 
 
-public class T1_NextLargestElement {
+public class T1_NextLargestToRight {
     public static int[] NGE(int[] arr) {
         int n = arr.length;
         Deque<Integer> st = new ArrayDeque<>();
