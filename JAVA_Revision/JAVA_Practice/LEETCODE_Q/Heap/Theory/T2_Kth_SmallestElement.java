@@ -1,4 +1,4 @@
-package LEETCODE_Q.Heap;
+package LEETCODE_Q.Heap.Theory;
 
 import java.util.PriorityQueue;
 
