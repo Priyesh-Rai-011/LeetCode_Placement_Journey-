@@ -8,7 +8,7 @@ public class Q3_1636_FrequencySort_Ascending {
         for (int num : nums){
             freqMap.put(num, freqMap.getOrDefault(num,0)+1);
         }
-        System.out.println("-->"+freqMap);
+//        System.out.println("-->"+freqMap);
 
         PriorityQueue<Integer> heap = new PriorityQueue<>(
                 (a,b)->freqMap.get(a).equals(freqMap.get(b)) ? b-a : freqMap.get(a)-freqMap.get(b)
@@ -17,7 +17,7 @@ public class Q3_1636_FrequencySort_Ascending {
         for (int n : freqMap.keySet()){
             heap.offer(n);
         }
-        System.out.println("-->"+heap);
+//        System.out.println("-->"+heap);
         List<Integer> result = new ArrayList<>();
         while (!heap.isEmpty()){
             int num = heap.poll();
