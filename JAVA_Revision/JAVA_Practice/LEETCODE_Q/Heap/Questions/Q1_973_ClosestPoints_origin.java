@@ -1,6 +1,7 @@
 package LEETCODE_Q.Heap.Questions;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class Q1_973_ClosestPoints_origin {
