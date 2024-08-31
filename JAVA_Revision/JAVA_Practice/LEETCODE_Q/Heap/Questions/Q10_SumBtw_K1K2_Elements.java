@@ -14,7 +14,7 @@ public class Q10_SumBtw_K1K2_Elements {
             int val = heap.poll();
             if (count>k1){
                 sum+=val;
-                System.out.println("->"+val);
+//                System.out.println("->"+val);
             }
         }
         return sum;
