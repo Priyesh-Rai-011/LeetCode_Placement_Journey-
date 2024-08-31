@@ -1,11 +1,11 @@
-package LEETCODE_Q.Heap.Questions;
+package Leetcode_GOOD_QUESTIONS;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class Q11_TaskScheduler {
+public class Q9_621_TaskScheduler {
     public static int leastInterval(char[] tasks, int n) {
         int result=0;
 //  Calculating the number of occurrences of the tasks
