@@ -37,5 +37,6 @@ public class Q11_TaskScheduler {
     }
     public static void main(String[] args) {
         System.out.println(leastInterval(new char[]{'A','C','A','B','D','B'},1));
+        System.out.println(leastInterval(new char[]{'A','C','A','B','D','B'},1));
     }
 }
