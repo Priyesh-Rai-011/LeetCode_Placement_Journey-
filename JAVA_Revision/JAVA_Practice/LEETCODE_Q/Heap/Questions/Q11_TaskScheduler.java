@@ -24,7 +24,7 @@ public class Q11_TaskScheduler {
             while (cycle-- > 0 && !heap.isEmpty()) {
                 temp.add(heap.poll());
             }
-            for (char task : tasks){
+            for (char task : temp){
                 int freq = freqMap.get(task)-1;
                 if (freq>0){// Re-Insert the task , back into the heap - if there are further occurrences
                     freqMap.put(task,freq);
