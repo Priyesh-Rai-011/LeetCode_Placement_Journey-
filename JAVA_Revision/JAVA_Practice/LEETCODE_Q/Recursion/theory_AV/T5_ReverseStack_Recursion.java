@@ -3,7 +3,7 @@ package LEETCODE_Q.Recursion.theory_AV;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class T4_ReverseStack_Recursion {
+public class T5_ReverseStack_Recursion {
     public static void reverse(Deque<Integer> stk){
         if(stk.size()>0){
             int x = stk.peekFirst();

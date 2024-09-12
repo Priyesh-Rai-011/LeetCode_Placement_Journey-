@@ -2,9 +2,8 @@ package LEETCODE_Q.Recursion.theory_AV;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Stack;
 
-public class T3_SortStack_recursion {
+public class T4_SortStack_recursion {
     public static void sortStack(Deque<Integer> stk){
         if(!stk.isEmpty()){
             int x = stk.pollFirst();

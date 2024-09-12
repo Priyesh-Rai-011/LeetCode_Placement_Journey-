@@ -1,6 +1,6 @@
 package LEETCODE_Q.Recursion.theory_AV;
 
-public class T1_Print1_N {
+public class T2_Print1_N {
     static void print1_n(int n){
         if (n==1){
             System.out.println("1");

@@ -2,7 +2,7 @@ package LEETCODE_Q.Recursion.theory_AV;
 
 import java.util.Arrays;
 
-public class T2_SortArray_Recursion {
+public class T3_SortArray_Recursion {
     static void sort(int[]arr ,int l_idx){
         // Base case: if l_idx is 0, the array is sorted
         if (l_idx <= 0) {  return;  }
