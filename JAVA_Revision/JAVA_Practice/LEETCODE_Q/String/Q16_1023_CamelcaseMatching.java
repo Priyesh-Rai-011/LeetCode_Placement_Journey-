@@ -14,7 +14,7 @@ public class Q16_1023_CamelcaseMatching {
     public static boolean check(String s, String p){
         int s_len=s.length(), p_len=p.length();
         int i=0,j=0;
-        for (; j<s_len; ++i,++j){
+        for (; j<p_len; ++i,++j){
             while (i<s_len && s.charAt(i)!= p.charAt(j) && Character.isLowerCase(s.charAt(i))){
                 ++i;
             }
