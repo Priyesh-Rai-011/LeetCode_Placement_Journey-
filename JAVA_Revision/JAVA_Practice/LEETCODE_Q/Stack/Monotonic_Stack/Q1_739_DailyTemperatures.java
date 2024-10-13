@@ -1,4 +1,4 @@
-package LEETCODE_Q.Stack.Monotonous_Stack;
+package LEETCODE_Q.Stack.Monotonic_Stack;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

@@ -1,9 +1,8 @@
-package LEETCODE_Q.Stack.Monotonous_Stack;
+package LEETCODE_Q.Stack.Monotonic_Stack;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.Queue;
 
 public class Q1_496_NextGreaterElement1 {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
