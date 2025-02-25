@@ -12,7 +12,7 @@ public class Q1_739_DailyTemperatures {
         for (int i = 0; i < temperatures.length; i++) {
             while (!stack.isEmpty() && temperatures[stack.peek()] < temperatures[i]) {
                 int index = stack.pop();
-                System.out.println(index);
+//                System.out.println(index);
                 ans[index] = i - index;
             }
             stack.push(i);

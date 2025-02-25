@@ -18,8 +18,8 @@ public class T4_NextSmallerToRight {
             if (stk.isEmpty()){
                 ans[i]=-1;
             }
-//            else if (!stk.isEmpty() && stk.peek()<nums[i]) {
-            else {
+            else if (!stk.isEmpty() && stk.peek()<nums[i]) {
+//            else {
                 ans[i] = stk.peek();
             }
 

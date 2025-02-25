@@ -21,7 +21,7 @@ public class T7_TOWER_HANOI {
 //        System.out.println("---------------N-3---------------");
 //        towerOfHanoi(3,'A','B','C');
         System.out.println("---------------N=4---------------");
-        towerOfHanoi(4,'A','B','C');
+        towerOfHanoi(3,'A','B','C');
 //        System.out.println("---------------N=10---------------");
 //        towerOfHanoi(20 ,'A','B','C');
     }
